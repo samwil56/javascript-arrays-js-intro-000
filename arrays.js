@@ -38,12 +38,12 @@ function removeElementFromBeginningOfArray(array) {
   return newarray
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
+function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 }
 
-function removeElementFromBeginningOfArray(array){
+function removeElementFromEndOfArray(array){
   var newarray = array.slice(-1)
   return newarray
 }
